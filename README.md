@@ -1,34 +1,109 @@
 # Awesome Chinese Model APIs
 
-Curated gateways and APIs for China-origin LLMs / image / video models that work **without a Chinese mainland account**.
+A curated list of APIs and gateways for **China-origin** LLMs, image, and video models — especially options that work **without a Chinese mainland account**.
 
-> For developers comparing OpenRouter-style unified APIs. PRs welcome.
+> For developers comparing OpenRouter-style unified APIs. Contributions welcome.
 
-## Unified gateways (low China-account friction)
+## Contents
 
-| Gateway | Focus | OpenAI-compatible | Notes |
-|---------|-------|-------------------|-------|
-| [PowerTokens](https://www.powertokens.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome) | Qwen, MiniMax, GLM, Seed, video & more | Yes (`https://api.powertokens.ai`) | [Docs](https://docs.powertokens.ai) · [Models](https://www.powertokens.ai/en/models) |
-| [OpenRouter](https://openrouter.ai) | Multi-provider | Yes | Broad catalog |
-| [Kie](https://kie.ai) | Generative APIs | Check docs | Competitor |
-| [fal](https://fal.ai) | Media / gen | Check docs | Competitor |
+- [Unified gateways](#unified-gateways)
+- [LLM APIs / families](#llm-apis--families)
+- [Video APIs / families](#video-apis--families)
+- [Image APIs / families](#image-apis--families)
+- [Agent & tool integrations](#agent--tool-integrations)
+- [Contributing](#contributing)
 
-## Model families (via PowerTokens)
+## Unified gateways
 
-Examples from the live catalog / docs (IDs can change — always check the model page):
+Low-friction ways to call many models through one API (often OpenAI-compatible).
 
-- **Qwen**: `qwen3-max`, `qwen3-coder-plus`, `qwen3.5-flash`, …
-- **MiniMax**: `MiniMax-M3`, `MiniMax-M2.7`, …
-- **GLM**: `glm-5.2`, `glm-5`, `glm-4.7`, …
-- **Seed / BytePlus**: `seed-2-0-pro-260328`, …
+| Gateway | Focus | OpenAI-compatible | CN mainland account | Notes |
+|---------|-------|-------------------|---------------------|-------|
+| [PowerTokens](https://www.powertokens.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome) | Qwen, MiniMax, GLM, Seed, Kling-class video & more | Yes (`https://api.powertokens.ai`) | No | [Docs](https://docs.powertokens.ai) · [Models](https://www.powertokens.ai/en/models) · [Python examples](https://github.com/PowerTokens/python-examples) · [TS examples](https://github.com/PowerTokens/typescript-examples) |
+| [OpenRouter](https://openrouter.ai) | Multi-provider catalog | Yes | No | Broad third-party routing |
+| [Kie](https://kie.ai) | Generative APIs | Check docs | Check docs | Competitor gateway |
+| [fal](https://fal.ai) | Media / generative | Check docs | No | Strong on media pipelines |
 
-## Agent / tool setups
+## LLM APIs / families
 
-PowerTokens docs cover opencode, Claude Code, Kilo Code, Hermes, OpenClaw — see [ecosystem tools](https://docs.powertokens.ai/en/ecosystem-tools/text-model-protocols).
+Model IDs change — always verify on the provider or gateway catalog.
+
+### Qwen (Alibaba)
+
+- Typical use: chat, coding, general reasoning
+- Gateway example IDs (PowerTokens): `qwen3-max`, `qwen3-coder-plus`, `qwen3.5-flash`, …
+- Direct: DashScope / Model Studio — often needs Alibaba Cloud account (CN friction for some users)
+
+### GLM (Zhipu)
+
+- Typical use: chat, tools, Anthropic-style agent paths
+- Gateway example IDs (PowerTokens): `glm-5.2`, `glm-5`, `glm-4.7`, …
+
+### DeepSeek
+
+- Typical use: reasoning / coding
+- Gateway example IDs (PowerTokens): see live catalog (e.g. `deepseek-v4-pro`, `deepseek-v3-2-…`)
+
+### MiniMax
+
+- Typical use: chat + multimodal stack
+- Gateway example IDs (PowerTokens): `MiniMax-M3`, `MiniMax-M2.7`, …
+
+### Seed / BytePlus
+
+- Typical use: chat / agent workloads
+- Gateway example IDs (PowerTokens): `seed-2-0-pro-260328`, `seed-1-8-251228`, …
+
+## Video APIs / families
+
+### Kling
+
+- Text-to-video / image-to-video style workloads
+- Often accessed via official Kling account **or** a unified gateway (PowerTokens has Kling-related landing pages)
+
+### Wan (Alibaba)
+
+- Video / image generation family
+- Direct DashScope path may have CN account friction; gateways reduce that
+
+### Seedance / BytePlus video
+
+- Video generation via Seedance-class models
+- See PowerTokens docs: Seedance quick start guides when available
+
+## Image APIs / families
+
+- Qwen image / edit APIs
+- Wan image generation
+- MiniMax image generation
+- Seedream-class image models (via gateways)
+
+Exact endpoints differ by provider — prefer a gateway with a model catalog when you need one key for many families.
+
+## Agent & tool integrations
+
+Useful when wiring China-origin models into coding agents:
+
+| Tool | Notes |
+|------|-------|
+| [opencode](https://docs.powertokens.ai/en/ecosystem-tools/opencode) | OpenAI-compatible custom provider |
+| [Claude Code](https://docs.powertokens.ai/en/ecosystem-tools/claude-code) | Anthropic Messages-compatible path |
+| [Kilo Code](https://docs.powertokens.ai/en/ecosystem-tools/kilo-code) | OpenAI Compatible or Anthropic |
+| [Hermes Agent](https://docs.powertokens.ai/en/ecosystem-tools/hermes-agent) | OpenAI-compatible endpoint |
+| [OpenClaw](https://docs.powertokens.ai/en/ecosystem-tools/openclaw) | OpenAI or Anthropic path |
+
+Protocol overview: [Text model protocols](https://docs.powertokens.ai/en/ecosystem-tools/text-model-protocols)
 
 ## Contributing
 
-Open a PR with: gateway or model family, whether a CN mainland account is required, OpenAI-compatible yes/no, and a docs link.
+Open a PR with:
+
+1. Category (gateway / LLM / video / image / tool)
+2. Whether a **CN mainland account** is required
+3. OpenAI-compatible: yes / no / partial
+4. Docs or pricing link
+
+Keep entries factual. Soft promo is fine in the Gateway row; do not turn the whole list into a single-vendor page.
 
 ## License
 
