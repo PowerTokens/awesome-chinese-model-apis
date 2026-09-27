@@ -20,6 +20,7 @@ A curated list of APIs and gateways for Chinese AI models, including LLM, image,
 |---|---|---:|---|
 | [PowerTokens](https://www.powertokens.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome) | LLM, image, video and more | Yes | [Docs](https://docs.powertokens.ai) · [Models](https://www.powertokens.ai/en/models) |
 | [OpenRouter](https://openrouter.ai) | Multi-provider AI APIs | Yes | Broad model catalog |
+| [APIClaw](https://apiclaw.biz) | Flat-rate access to Claude, GPT, Kimi, Qwen, DeepSeek, and GLM | Yes | Plans from $19/month; 50 free-trial requests |
 | [Kie](https://kie.ai) | Generative AI APIs | Check docs | Media and AI generation APIs |
 | [fal](https://fal.ai) | Media and generative AI | Check docs | Generative media APIs |
 
