@@ -129,9 +129,3 @@ Please keep entries factual and avoid promotional claims.
 ## License
 
 CC0 / public domain for the list structure. Linked products and trademarks remain the property of their respective owners.
-
-
-## Commit：
-
-```text
-docs: improve awesome Chinese model APIs guide
