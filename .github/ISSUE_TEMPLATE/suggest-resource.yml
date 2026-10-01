@@ -1,0 +1,68 @@
+name: Suggest a resource
+description: Suggest an API, gateway or developer tool for Chinese AI models.
+title: "Suggest: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Please check that the resource isn't already listed. See [CONTRIBUTING.md](https://github.com/PowerTokens/awesome-chinese-model-apis/blob/main/CONTRIBUTING.md) for what fits the list.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Platform or tool name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official website
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: API documentation
+      placeholder: https://
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Unified AI APIs
+        - LLM APIs
+        - AI Video APIs
+        - Image Generation APIs
+        - Multimodal APIs
+        - Developer Tools
+    validations:
+      required: true
+  - type: input
+    id: models
+    attributes:
+      label: Supported model families
+      placeholder: e.g. Qwen, GLM, Wan
+  - type: dropdown
+    id: openai
+    attributes:
+      label: OpenAI-compatible
+      options:
+        - "Yes"
+        - "No"
+        - Not sure
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Short and factual, e.g. pricing page, account or regional requirements.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched the list and open issues for duplicates.
+          required: true
+        - label: The resource is publicly available and the links work.
+          required: true

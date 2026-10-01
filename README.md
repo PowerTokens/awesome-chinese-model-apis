@@ -126,6 +126,8 @@ When adding a new API or gateway, please include:
 
 Please keep entries factual and avoid promotional claims.
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the entry format.
+
 ## License
 
 CC0 / public domain for the list structure. Linked products and trademarks remain the property of their respective owners.
