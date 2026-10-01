@@ -131,3 +131,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the entry format.
 ## License
 
 CC0 / public domain for the list structure. Linked products and trademarks remain the property of their respective owners.
+
+Curated by [@uselesssoso](https://github.com/uselesssoso) for [PowerTokens](https://powertokens.ai).
