@@ -157,6 +157,8 @@ Background reading: [Text model protocols and endpoints](https://docs.powertoken
 
 ## Developer Tools
 
+- [Chinese Model Picker](https://powertokens.github.io/chinese-model-picker/) ([source](https://github.com/PowerTokens/chinese-model-picker)) - Compare GLM, Qwen, MiniMax, DeepSeek V3.2, ByteDance Seed and Xiaomi MiMo models by context length, tool calling, reasoning, input types and price per 1M tokens, with a monthly cost calculator.
+
 Developers may also want to evaluate:
 
 - OpenAI-compatible SDKs
