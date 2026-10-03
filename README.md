@@ -17,6 +17,7 @@ Last updated: 2026-10
 - [Tool setup guides](#tool-setup-guides)
 - [Developer Tools](#developer-tools)
 - [How to choose an AI API](#how-to-choose-an-ai-api)
+- [FAQ](#faq)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -179,6 +180,36 @@ Before integrating an API, compare:
 8. Documentation quality
 9. Regional availability
 10. Reliability
+
+## FAQ
+
+### How do I use Qwen, GLM or MiniMax APIs from outside China?
+
+Sign up on each developer's international site: [Alibaba Cloud Model Studio](https://www.alibabacloud.com/en/product/modelstudio) for Qwen, [Z.ai](https://z.ai/model-api) for GLM and [platform.minimax.io](https://platform.minimax.io) for MiniMax, all with English consoles. Alternatively, a unified gateway such as [PowerTokens](https://www.powertokens.ai/?utm_source=github&utm_medium=readme&utm_campaign=faq) or [OpenRouter](https://openrouter.ai) reaches several of these models with one account and one API key. See [Using Chinese model APIs from outside China](#using-chinese-model-apis-from-outside-china) for details.
+
+### Is there an OpenAI-compatible API for Chinese AI models?
+
+Yes. Every official platform in the [LLM APIs](#llm-apis) table offers an OpenAI-compatible endpoint, so the OpenAI SDK works after you change the base URL, API key and model name. Unified gateways such as PowerTokens (`https://api.powertokens.ai/v1`) and OpenRouter put models from several providers behind one OpenAI-compatible endpoint.
+
+### Do I need a Chinese phone number to use Chinese model APIs?
+
+Usually not on the international sites (Alibaba Cloud international, Z.ai, MiniMax, BytePlus, Tencent Cloud International and others), which are built for overseas users. The mainland China sites, such as Bailian, BigModel, Volcengine, Qianfan and Spark, may require a mainland phone number or real-name verification.
+
+### Can I pay with an international credit card or PayPal?
+
+Most international sites accept Visa or Mastercard, and Alibaba Cloud, BytePlus and DeepSeek also list PayPal; Alibaba Cloud and Tencent Cloud say prepaid and virtual cards are not accepted. Gateways bill all models in one place; PowerTokens, for example, accepts credit card or PayPal.
+
+### Can I use Chinese models with Claude Code, opencode or other coding agents?
+
+Yes, through an OpenAI- or Anthropic-compatible endpoint. MiniMax, DeepSeek, Moonshot AI and Tencent Cloud offer Anthropic-compatible APIs directly, and the [Tool setup guides](#tool-setup-guides) section links step-by-step setup for Claude Code, opencode, Kilo Code, Hermes Agent and OpenClaw (for example the [PowerTokens Claude Code guide](https://docs.powertokens.ai/en/ecosystem-tools/claude-code?utm_source=github&utm_medium=readme&utm_campaign=faq)).
+
+### Which Chinese AI video generation APIs are available?
+
+The main families are Wan (Alibaba), Kling (Kuaishou), Hailuo / MiniMax H (MiniMax), Seedance (ByteDance), Vidu (ShengShu), CogVideoX (Zhipu) and HunyuanVideo (Tencent). Each has an official API, listed with links in [AI Video APIs](#ai-video-apis).
+
+### Should I call providers directly or use a gateway?
+
+Going direct gives you each provider's full feature set and terms. A gateway reduces integration and payment overhead with one key and one bill, but adds an intermediary, so compare model coverage, pricing, rate limits and data handling for your use case.
 
 ## Contributing
 
