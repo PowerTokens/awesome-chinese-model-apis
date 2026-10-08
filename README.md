@@ -25,7 +25,7 @@ Last updated: 2026-10
 
 | Platform | Focus | OpenAI-compatible | Notes |
 |---|---|---:|---|
-| [PowerTokens](https://www.powertokens.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome) | LLM, image, video and more | Yes | [Docs](https://docs.powertokens.ai) · [Models](https://www.powertokens.ai/en/models) |
+| [PowerTokens](https://www.powertokens.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome) | LLM, image, video and more | Yes | [Docs](https://docs.powertokens.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome) · [Models](https://www.powertokens.ai/en/models?utm_source=github&utm_medium=readme&utm_campaign=awesome) |
 | [OpenRouter](https://openrouter.ai) | Multi-provider AI APIs | Yes | Broad model catalog |
 | [Kie](https://kie.ai) | Generative AI APIs | Check docs | Media and AI generation APIs |
 | [fal](https://fal.ai) | Media and generative AI | Check docs | Generative media APIs |
@@ -234,4 +234,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the entry format.
 
 CC0 / public domain for the list structure. Linked products and trademarks remain the property of their respective owners.
 
-Curated by [@uselesssoso](https://github.com/uselesssoso) for [PowerTokens](https://powertokens.ai).
+Curated by [@uselesssoso](https://github.com/uselesssoso) for [PowerTokens](https://powertokens.ai/?utm_source=github&utm_medium=readme&utm_campaign=awesome).
