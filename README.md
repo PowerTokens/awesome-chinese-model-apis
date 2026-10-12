@@ -152,6 +152,13 @@ Step-by-step guides for connecting popular AI coding and agent tools to an OpenA
 | Kilo Code | Open-source AI coding agent for IDE, CLI and cloud | [Kilo Code setup](https://docs.powertokens.ai/en/ecosystem-tools/kilo-code?utm_source=github&utm_medium=readme&utm_campaign=awesome) | [OpenAI-compatible providers](https://kilo.ai/docs/ai-providers/openai-compatible) |
 | Hermes Agent | Open-source agent from Nous Research | [Hermes Agent setup](https://docs.powertokens.ai/en/ecosystem-tools/hermes-agent?utm_source=github&utm_medium=readme&utm_campaign=awesome) | [AI providers](https://hermes-agent.nousresearch.com/docs/integrations/providers) |
 | OpenClaw | Open-source AI assistant | [OpenClaw setup](https://docs.powertokens.ai/en/ecosystem-tools/openclaw?utm_source=github&utm_medium=readme&utm_campaign=awesome) | [Model providers](https://docs.openclaw.ai/concepts/model-providers) |
+| WorkBuddy | Tencent AI office workbench with custom OpenAI-compatible models | [WorkBuddy setup](https://docs.powertokens.ai/en/ecosystem-tools/workbuddy?utm_source=github&utm_medium=readme&utm_campaign=awesome) | [Model configuration](https://www.workbuddy.ai/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Model) |
+
+Also useful (SDK / CLI guides, not coding agents):
+
+- [Goose](https://docs.powertokens.ai/en/guides/goose?utm_source=github&utm_medium=readme&utm_campaign=awesome) — downloadable custom provider JSON
+- [Vercel AI SDK](https://docs.powertokens.ai/en/guides/vercel-ai-sdk?utm_source=github&utm_medium=readme&utm_campaign=awesome) — `createOpenAICompatible` against PowerTokens
+- [PowerTokens CLI](https://docs.powertokens.ai/en/guides/powertokens-cli?utm_source=github&utm_medium=readme&utm_campaign=awesome) — `pt` / `powertokens` for chat, image, video and speech from the terminal
 
 Background reading: [Text model protocols and endpoints](https://docs.powertokens.ai/en/ecosystem-tools/text-model-protocols?utm_source=github&utm_medium=readme&utm_campaign=awesome) compares Chat Completions, Anthropic Messages and Responses for text models.
 
@@ -201,9 +208,9 @@ Usually not on the international sites (Alibaba Cloud international, Z.ai, MiniM
 
 Most international sites accept Visa or Mastercard, and Alibaba Cloud, BytePlus and DeepSeek also list PayPal; Alibaba Cloud and Tencent Cloud say prepaid and virtual cards are not accepted. Gateways bill all models in one place; PowerTokens, for example, accepts credit card or PayPal.
 
-### Can I use Chinese models with Claude Code, opencode or other coding agents?
+### Can I use Chinese models with Claude Code, opencode, WorkBuddy or other coding agents?
 
-Yes, through an OpenAI- or Anthropic-compatible endpoint. MiniMax, DeepSeek, Moonshot AI and Tencent Cloud offer Anthropic-compatible APIs directly, and the [Tool setup guides](#tool-setup-guides) section links step-by-step setup for Claude Code, opencode, Kilo Code, Hermes Agent and OpenClaw (for example the [PowerTokens Claude Code guide](https://docs.powertokens.ai/en/ecosystem-tools/claude-code?utm_source=github&utm_medium=readme&utm_campaign=faq)).
+Yes, through an OpenAI- or Anthropic-compatible endpoint. MiniMax, DeepSeek, Moonshot AI and Tencent Cloud offer Anthropic-compatible APIs directly, and the [Tool setup guides](#tool-setup-guides) section links step-by-step setup for Claude Code, opencode, Kilo Code, Hermes Agent, OpenClaw and WorkBuddy (for example the [PowerTokens Claude Code guide](https://docs.powertokens.ai/en/ecosystem-tools/claude-code?utm_source=github&utm_medium=readme&utm_campaign=faq) and [WorkBuddy guide](https://docs.powertokens.ai/en/ecosystem-tools/workbuddy?utm_source=github&utm_medium=readme&utm_campaign=faq)). For SDKs and the terminal, see also [Vercel AI SDK](https://docs.powertokens.ai/en/guides/vercel-ai-sdk?utm_source=github&utm_medium=readme&utm_campaign=faq) and [PowerTokens CLI](https://docs.powertokens.ai/en/guides/powertokens-cli?utm_source=github&utm_medium=readme&utm_campaign=faq).
 
 ### Which Chinese AI video generation APIs are available?
 
