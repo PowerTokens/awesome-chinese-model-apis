@@ -38,7 +38,7 @@ Official API platforms of Chinese model developers. Where a developer runs separ
 |---|---|---|---|---|
 | [Alibaba Cloud Model Studio](https://www.alibabacloud.com/en/product/modelstudio) (DashScope API; China site: [Bailian](https://www.aliyun.com/product/bailian)) | Qwen (text, vision, coder, omni); also hosts DeepSeek, Kimi, GLM and MiniMax models | Yes | Yes | International site with Singapore, US (Virginia), Hong Kong and Tokyo regions. Visa, Mastercard, AMEX or JCB cards enabled for international payments, or PayPal registered outside mainland China. Prepaid and virtual cards are not accepted. |
 | [Z.ai](https://z.ai/model-api) (Zhipu; China site: [BigModel](https://bigmodel.cn)) | GLM (text, vision), GLM-Image, CogVideoX | Yes | Yes | International site. Credit card top-up; the FAQ says 3DS verification is not supported. Phone requirements: Check docs. |
-| [MiniMax](https://platform.minimax.io) (China site: [platform.minimaxi.com](https://platform.minimaxi.com)) | MiniMax-M3 (current), M2.7 / M2.5, Hailuo / H video, image-01, speech, music | Yes (also Anthropic-compatible) | Yes | International site. Top-up by online payment or bank transfer. Accepted card types: Check docs. |
+| [MiniMax](https://platform.minimax.io) (China site: [platform.minimaxi.com](https://platform.minimaxi.com)) | MiniMax-M3 (current), MiniMax-M3.1-Flash (docs; 1M context), M2.7 / M2.5, Hailuo / H video, image-01, speech, music | Yes (also Anthropic-compatible) | Yes | International site. Top-up by online payment or bank transfer. Accepted card types: Check docs. |
 | [DeepSeek](https://platform.deepseek.com) | DeepSeek chat and reasoning models | Yes (also Anthropic-compatible) | Yes | One platform for all regions. Email or Google sign-in. Top-up via PayPal, bank card, Alipay or WeChat Pay (per FAQ). |
 | [BytePlus ModelArk](https://www.byteplus.com/en/product/modelark) (ByteDance; China site: [Volcengine Ark](https://www.volcengine.com/product/ark)) | Seed / Doubao LLMs, Seedream, Seedance; also hosts third-party open models | Yes ("largely compatible", per docs) | Yes | BytePlus is the international site. Visa, Mastercard, AMEX or Maestro in the listed countries and regions; PayPal and bank transfer are also documented. |
 | [Moonshot AI Kimi API](https://platform.kimi.ai) (China site: [platform.kimi.com](https://platform.kimi.com)) | Kimi K series (text, vision, coding) | Yes (also Anthropic-compatible) | Yes | International site with email or Google sign-in. The account FAQ lists WeChat Pay and Alipay for individual online top-ups; business accounts may use online payment or bank transfer depending on region. International cards: Check docs. |
@@ -121,7 +121,7 @@ Multimodal model capabilities may include:
 - Document understanding
 - Audio and video understanding
 
-Most platforms in [LLM APIs](#llm-apis) offer vision-language models through the same chat endpoint (for example Qwen-VL, GLM vision models, Kimi, Step and MiniMax-M3).
+Most platforms in [LLM APIs](#llm-apis) offer vision-language models through the same chat endpoint (for example Qwen-VL, GLM vision models, Kimi, Step and MiniMax-M3 / MiniMax-M3.1-Flash).
 
 ## Using Chinese model APIs from outside China
 
