@@ -29,6 +29,7 @@ Last updated: 2026-10
 | [OpenRouter](https://openrouter.ai) | Multi-provider AI APIs | Yes | Broad model catalog |
 | [Kie](https://kie.ai) | Generative AI APIs | Check docs | Media and AI generation APIs |
 | [fal](https://fal.ai) | Media and generative AI | Check docs | Generative media APIs |
+| [COCO API](https://cocoapi.top/) | LLM aggregation, 107 models across 25 vendors | Yes | Per-token billing; balance and usage in the New API console |
 
 ## LLM APIs
 
